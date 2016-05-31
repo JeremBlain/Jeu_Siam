@@ -1,0 +1,11 @@
+#test_unitaire_ko_01
+#
+# test introduction au milieu de plateau
+i
+n 1 1 ^
+fin
+#Comportement attendu:
+# pas de piece introduite
+
+//La fonction coordonnees_etre_bordure_plateau renvera un 0 à l'api, 
+//qui s'arretera après avoir afficher "coordonnees invalides".

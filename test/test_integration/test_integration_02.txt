@@ -1,0 +1,40 @@
+//plusieurs test sont effectués, dont : 
+//poussée, possible ou pas, avec orientation opposée
+//changement d'orientation valide
+//introduction de piece avec et sans poussée, parfois invalide
+//test d'introduction de trop de piece (impossible)
+
+
+//on part du plateau initial (aucune piece à part les 3 rochers du milieu)
+i
+n 2 0 > //introduit un elephant en (2,0) orien droite
+n 4 4 < //introduit un rhino en (4,4) orien gauche
+d 2 0 ^ ^ //deplace un elephant en haut, orien haut
+d 4 4 < > //deplace un rhino à gauche , orien droite
+d 2 1 ^ ^ //deplace un elephant en haut avec poussée d'un Rocher en (2,3)
+d 3 4 < v //deplace un rhino à gauche, orien bas
+d 2 2 ^ ^ //essaye de pousser le rocher, mais le rihno bloque, pas de déplacement, toujours à l'éléphant de jouer
+n 2 0 ^ //introduit un elephant en (2,0) orien droite
+n 2 4 v //introduit un rhino avec poussée du premier rhino, du rocher et de l'éléphant (2 pousseurs vs 1 donc possible)
+n 2 0 ^ //introduit un elephant en (2,0) orien haut, avec pousse de tout les éléments précédents, avec en plus, ejection d'un rhino
+n 1 4 < //introduit un rhino en (1,4) orien gauche
+d 2 1 > ^ //deplace un elephant à droite, orien haut
+n 0 2 > //introduit un rhino en (0,2) orien droite
+d 3 1 ^ ^ //deplace un elephant en haut, orien haut avec poussee d'un rocher
+d 0 2 > > //deplace un rhino à droite, orien droite avec poussee d'un rocher + 2 éléphants (pas directement opposé = possible)
+n 0 0 ^	//introduit un elephant en (0,0) orien haute
+d 1 2 > >  //deplace une nouvelle rhino vers la droite, avec poussée du Rocher + 2élé (sorti d'un éléphant)
+o 4 2 < //change l'eléphant d'orientation vers la gauche
+d 2 2 > > //déplacement du rhino vers le droit, mais impossible à cause de la nouvelle orientation de l'éléphant
+n 2 4 v //intro d'un rhino avec poussé des éléments en dessous
+n 2 0 ^ //essaye d'intro un éléphant en (2,0)  mais il y a deux rhino d'orien opposé = impossible
+d 0 0 > > //deplacement d'un élé à droite en (1,0)
+n 2 4 v //intro d'un rhino avec poussé des éléments en dessous (/!\ 5 rhino)
+d 4 2 < < //deplacement d'un élé à gauche avec poussé d'un rhino (pas sens opposé) + un rocher = bon
+n 2 4 v //intro d'un nouveau rhino. Il y a 5 rhino mais un rhino se trouve au bord du plateau, 
+	//il se fera ejecté avec la poussée, donc il restera toujours 5 rhino, normalement possible !
+d 1 0 > > //deplacement d'un élé vers la droite avec poussé d'un rocher
+n 2 4 v //tente une intro d'un nouveau rhino, mais cette fois, pas de rhino au bord qui se fera poussé, 
+	//donc il y aura 6 rhino = impossible
+fin
+

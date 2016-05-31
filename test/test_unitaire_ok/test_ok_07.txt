@@ -1,0 +1,12 @@
+#test_unitaire_ok_07
+#
+# teste si 3 elephants peuvent pousser 3 rochers avec l'introduction du 3e elephant, et un rocher pousse a l'exterieur du plateau amenant une victoire
+# 
+# 
+
+lit ../test/test_unitaire_ok/test_ok_07_entree.txt
+n 3 0 ^ 
+fin
+#comportement attendu:
+# 
+Le rocher au bord du plateau est expulse ce qui amene la victoire du joueur 0.

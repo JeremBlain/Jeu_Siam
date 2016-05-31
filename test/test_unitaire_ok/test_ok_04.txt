@@ -1,0 +1,10 @@
+#test_unitaire_ok_04
+#
+# test s'il est possible de pousser un animal opposé + un rocher avec deux animaux dans la bonne direction
+
+lit ../test/test_unitaire_ok/test_ok_04_entree.txt
+d 3 0 ^ ^
+fin
+#comportement attendu:
+# toutes les pieces déplacées dans la direction donnée
+

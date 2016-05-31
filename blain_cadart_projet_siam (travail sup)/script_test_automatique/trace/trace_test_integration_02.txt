@@ -1,0 +1,427 @@
+Test type_etre_integre
+Test type_nommer
+Test type_nommer_nom_cours
+Test type_correspondre_caractere_animal
+Test type_orientation_nommer
+Test type_orientation_nom_cours
+Test type_orientation_inverser
+Test type_orientation_correspondre_caractere
+Test_piece_etre_integre
+Test_piece_definir
+Test piece etre case vide
+Test piece etre rocher
+Test piece etre animal
+Test piece correspondre nom cours
+Test plateau etre integre
+Test plateau exister piece
+Test coordonnes etre bordure plateau
+Test coordonnees appliquer deplacement
+Test plateau_modification_changer_orientation_piece_etre_possible
+Test plateau_modification_changer_orientation_piece
+Test plateau_modification_introduire_piece_etre_possible
+Test plateau_modification_introduire_piece
+Test plateau_modification_deplacer_piece_etre_possible
+Test plateau_modification_deplacer_piece
+Test api_siam_tenter_changer_orientation_piece_si_possible
+  La piece choisie n'est pas la votre !
+  orientation pas bonne
+Test api_siam_tenter_introduire_nouvelle_piece_si_possible
+  coordonnees invalides
+  introduction de la piece impossible
+Test api_siam_tenter_deplacer_piece_si_possible
+  les coordonnees donnees ne sont pas dans le plateau
+  deplacement impossible
+  deplacement impossible
+Test poussee etre valide
+Test poussee realiser
+Test piece etre derniere poussee
+
+***********************
+Jeu SIAM mode interactif:
+***********************
+Commandes:
+> #                 : Commentaires, tout ce qui suit # n'est pas analyse.
+> i                 : [I]nitialisation du jeu.
+> n x0 y0 dir       : [N]ouvelle piece introduite en (x0,y0) avec direction indiquee.
+> d x0 y0 dir0 dir1 : [D]eplacement piece de (x0,y0) dans le sens dir0 indique
+                         et ayant la direction dir1 a l'arrive.
+> o x0 y0 dir       : [O]rientation nouvelle de la piece en (x0,y0).
+> lit [NOM_FICHIER] : Lire un fichier externe.
+
+directions possibles: gauche <, droite >, haut ^, bas v.
+***********************
+
+
+joueur 0 (elephant)
+[4] *** | *** | *** | *** | *** |
+[3] *** | *** | *** | *** | *** |
+[2] *** | RRR | RRR | RRR | *** |
+[1] *** | *** | *** | *** | *** |
+[0] *** | *** | *** | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+> 
+Ligne non valide, action non realisee
+
+
+joueur 0 (elephant)
+[4] *** | *** | *** | *** | *** |
+[3] *** | *** | *** | *** | *** |
+[2] *** | RRR | RRR | RRR | *** |
+[1] *** | *** | *** | *** | *** |
+[0] *** | *** | *** | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+> 
+Ligne non valide, action non realisee
+
+
+joueur 0 (elephant)
+[4] *** | *** | *** | *** | *** |
+[3] *** | *** | *** | *** | *** |
+[2] *** | RRR | RRR | RRR | *** |
+[1] *** | *** | *** | *** | *** |
+[0] *** | *** | *** | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+> 
+Ligne non valide, action non realisee
+
+
+joueur 0 (elephant)
+[4] *** | *** | *** | *** | *** |
+[3] *** | *** | *** | *** | *** |
+[2] *** | RRR | RRR | RRR | *** |
+[1] *** | *** | *** | *** | *** |
+[0] *** | *** | *** | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+> 
+Ligne non valide, action non realisee
+
+
+joueur 0 (elephant)
+[4] *** | *** | *** | *** | *** |
+[3] *** | *** | *** | *** | *** |
+[2] *** | RRR | RRR | RRR | *** |
+[1] *** | *** | *** | *** | *** |
+[0] *** | *** | *** | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+> 
+Ligne non valide, action non realisee
+
+
+joueur 0 (elephant)
+[4] *** | *** | *** | *** | *** |
+[3] *** | *** | *** | *** | *** |
+[2] *** | RRR | RRR | RRR | *** |
+[1] *** | *** | *** | *** | *** |
+[0] *** | *** | *** | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+> 
+Ligne non valide, action non realisee
+
+
+joueur 0 (elephant)
+[4] *** | *** | *** | *** | *** |
+[3] *** | *** | *** | *** | *** |
+[2] *** | RRR | RRR | RRR | *** |
+[1] *** | *** | *** | *** | *** |
+[0] *** | *** | *** | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+> 
+Ligne non valide, action non realisee
+
+
+joueur 0 (elephant)
+[4] *** | *** | *** | *** | *** |
+[3] *** | *** | *** | *** | *** |
+[2] *** | RRR | RRR | RRR | *** |
+[1] *** | *** | *** | *** | *** |
+[0] *** | *** | *** | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+> 
+Ligne non valide, action non realisee
+
+
+joueur 0 (elephant)
+[4] *** | *** | *** | *** | *** |
+[3] *** | *** | *** | *** | *** |
+[2] *** | RRR | RRR | RRR | *** |
+[1] *** | *** | *** | *** | *** |
+[0] *** | *** | *** | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+> Initialisation du jeu
+
+joueur 0 (elephant)
+[4] *** | *** | *** | *** | *** |
+[3] *** | *** | *** | *** | *** |
+[2] *** | RRR | RRR | RRR | *** |
+[1] *** | *** | *** | *** | *** |
+[0] *** | *** | *** | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   n 2 0 >
+
+joueur 1 (rhinoceros)
+[4] *** | *** | *** | *** | *** |
+[3] *** | *** | *** | *** | *** |
+[2] *** | RRR | RRR | RRR | *** |
+[1] *** | *** | *** | *** | *** |
+[0] *** | *** | e-> | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   n 4 4 <
+
+joueur 0 (elephant)
+[4] *** | *** | *** | *** | r-< |
+[3] *** | *** | *** | *** | *** |
+[2] *** | RRR | RRR | RRR | *** |
+[1] *** | *** | *** | *** | *** |
+[0] *** | *** | e-> | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   d 2 0 ^ ^
+
+joueur 1 (rhinoceros)
+[4] *** | *** | *** | *** | r-< |
+[3] *** | *** | *** | *** | *** |
+[2] *** | RRR | RRR | RRR | *** |
+[1] *** | *** | e-^ | *** | *** |
+[0] *** | *** | *** | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   d 4 4 < >
+
+joueur 0 (elephant)
+[4] *** | *** | *** | r-> | *** |
+[3] *** | *** | *** | *** | *** |
+[2] *** | RRR | RRR | RRR | *** |
+[1] *** | *** | e-^ | *** | *** |
+[0] *** | *** | *** | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   d 2 1 ^ ^
+
+joueur 1 (rhinoceros)
+[4] *** | *** | *** | r-> | *** |
+[3] *** | *** | RRR | *** | *** |
+[2] *** | RRR | e-^ | RRR | *** |
+[1] *** | *** | *** | *** | *** |
+[0] *** | *** | *** | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   d 3 4 < v
+
+joueur 0 (elephant)
+[4] *** | *** | r-v | *** | *** |
+[3] *** | *** | RRR | *** | *** |
+[2] *** | RRR | e-^ | RRR | *** |
+[1] *** | *** | *** | *** | *** |
+[0] *** | *** | *** | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   La poussee n'est pas valide
+Echec deplacement piece impossible
+
+joueur 0 (elephant)
+[4] *** | *** | r-v | *** | *** |
+[3] *** | *** | RRR | *** | *** |
+[2] *** | RRR | e-^ | RRR | *** |
+[1] *** | *** | *** | *** | *** |
+[0] *** | *** | *** | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   n 2 0 ^
+
+joueur 1 (rhinoceros)
+[4] *** | *** | r-v | *** | *** |
+[3] *** | *** | RRR | *** | *** |
+[2] *** | RRR | e-^ | RRR | *** |
+[1] *** | *** | *** | *** | *** |
+[0] *** | *** | e-^ | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   n 2 4 v
+
+joueur 0 (elephant)
+[4] *** | *** | r-v | *** | *** |
+[3] *** | *** | r-v | *** | *** |
+[2] *** | RRR | RRR | RRR | *** |
+[1] *** | *** | e-^ | *** | *** |
+[0] *** | *** | e-^ | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   n 2 0 ^
+
+joueur 1 (rhinoceros)
+[4] *** | *** | r-v | *** | *** |
+[3] *** | *** | RRR | *** | *** |
+[2] *** | RRR | e-^ | RRR | *** |
+[1] *** | *** | e-^ | *** | *** |
+[0] *** | *** | e-^ | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   n 1 4 <
+
+joueur 0 (elephant)
+[4] *** | r-< | r-v | *** | *** |
+[3] *** | *** | RRR | *** | *** |
+[2] *** | RRR | e-^ | RRR | *** |
+[1] *** | *** | e-^ | *** | *** |
+[0] *** | *** | e-^ | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   d 2 1 > ^
+
+joueur 1 (rhinoceros)
+[4] *** | r-< | r-v | *** | *** |
+[3] *** | *** | RRR | *** | *** |
+[2] *** | RRR | e-^ | RRR | *** |
+[1] *** | *** | *** | e-^ | *** |
+[0] *** | *** | e-^ | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   n 0 2 >
+
+joueur 0 (elephant)
+[4] *** | r-< | r-v | *** | *** |
+[3] *** | *** | RRR | *** | *** |
+[2] r-> | RRR | e-^ | RRR | *** |
+[1] *** | *** | *** | e-^ | *** |
+[0] *** | *** | e-^ | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   d 3 1 ^ ^
+
+joueur 1 (rhinoceros)
+[4] *** | r-< | r-v | *** | *** |
+[3] *** | *** | RRR | RRR | *** |
+[2] r-> | RRR | e-^ | e-^ | *** |
+[1] *** | *** | *** | *** | *** |
+[0] *** | *** | e-^ | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   d 0 2 > >
+
+joueur 0 (elephant)
+[4] *** | r-< | r-v | *** | *** |
+[3] *** | *** | RRR | RRR | *** |
+[2] *** | r-> | RRR | e-^ | e-^ |
+[1] *** | *** | *** | *** | *** |
+[0] *** | *** | e-^ | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   n 0 0 ^
+
+joueur 1 (rhinoceros)
+[4] *** | r-< | r-v | *** | *** |
+[3] *** | *** | RRR | RRR | *** |
+[2] *** | r-> | RRR | e-^ | e-^ |
+[1] *** | *** | *** | *** | *** |
+[0] e-^ | *** | e-^ | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   d 1 2 > >
+
+joueur 0 (elephant)
+[4] *** | r-< | r-v | *** | *** |
+[3] *** | *** | RRR | RRR | *** |
+[2] *** | *** | r-> | RRR | e-^ |
+[1] *** | *** | *** | *** | *** |
+[0] e-^ | *** | e-^ | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   o 4 2 <
+
+joueur 1 (rhinoceros)
+[4] *** | r-< | r-v | *** | *** |
+[3] *** | *** | RRR | RRR | *** |
+[2] *** | *** | r-> | RRR | e-< |
+[1] *** | *** | *** | *** | *** |
+[0] e-^ | *** | e-^ | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   La poussee n'est pas valide
+Echec deplacement piece impossible
+
+joueur 1 (rhinoceros)
+[4] *** | r-< | r-v | *** | *** |
+[3] *** | *** | RRR | RRR | *** |
+[2] *** | *** | r-> | RRR | e-< |
+[1] *** | *** | *** | *** | *** |
+[0] e-^ | *** | e-^ | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   n 2 4 v
+
+joueur 0 (elephant)
+[4] *** | r-< | r-v | *** | *** |
+[3] *** | *** | r-v | RRR | *** |
+[2] *** | *** | RRR | RRR | e-< |
+[1] *** | *** | r-> | *** | *** |
+[0] e-^ | *** | e-^ | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   introduction de la piece impossible
+Echec introduction piece impossible
+
+joueur 0 (elephant)
+[4] *** | r-< | r-v | *** | *** |
+[3] *** | *** | r-v | RRR | *** |
+[2] *** | *** | RRR | RRR | e-< |
+[1] *** | *** | r-> | *** | *** |
+[0] e-^ | *** | e-^ | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   d 0 0 > >
+
+joueur 1 (rhinoceros)
+[4] *** | r-< | r-v | *** | *** |
+[3] *** | *** | r-v | RRR | *** |
+[2] *** | *** | RRR | RRR | e-< |
+[1] *** | *** | r-> | *** | *** |
+[0] *** | e-> | e-^ | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   n 2 4 v
+
+joueur 0 (elephant)
+[4] *** | r-< | r-v | *** | *** |
+[3] *** | *** | r-v | RRR | *** |
+[2] *** | *** | r-v | RRR | e-< |
+[1] *** | *** | RRR | *** | *** |
+[0] *** | e-> | r-> | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   d 4 2 < <
+
+joueur 1 (rhinoceros)
+[4] *** | r-< | r-v | *** | *** |
+[3] *** | *** | r-v | RRR | *** |
+[2] *** | r-v | RRR | e-< | *** |
+[1] *** | *** | RRR | *** | *** |
+[0] *** | e-> | r-> | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   n 2 4 v
+
+joueur 0 (elephant)
+[4] *** | r-< | r-v | *** | *** |
+[3] *** | *** | r-v | RRR | *** |
+[2] *** | r-v | r-v | e-< | *** |
+[1] *** | *** | RRR | *** | *** |
+[0] *** | e-> | RRR | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+> 
+Ligne non valide, action non realisee
+
+
+joueur 0 (elephant)
+[4] *** | r-< | r-v | *** | *** |
+[3] *** | *** | r-v | RRR | *** |
+[2] *** | r-v | r-v | e-< | *** |
+[1] *** | *** | RRR | *** | *** |
+[0] *** | e-> | RRR | *** | *** |
+    [0]   [1]   [2]   [3]   [4]
+>   d 1 0 > >
+
+joueur 1 (rhinoceros)
+[4] *** | r-< | r-v | *** | *** |
+[3] *** | *** | r-v | RRR | *** |
+[2] *** | r-v | r-v | e-< | *** |
+[1] *** | *** | RRR | *** | *** |
+[0] *** | *** | e-> | RRR | *** |
+    [0]   [1]   [2]   [3]   [4]
+> Echec introduction piece impossible
+
+joueur 1 (rhinoceros)
+[4] *** | r-< | r-v | *** | *** |
+[3] *** | *** | r-v | RRR | *** |
+[2] *** | r-v | r-v | e-< | *** |
+[1] *** | *** | RRR | *** | *** |
+[0] *** | *** | e-> | RRR | *** |
+    [0]   [1]   [2]   [3]   [4]
+> 
+Ligne non valide, action non realisee
+
+
+joueur 1 (rhinoceros)
+[4] *** | r-< | r-v | *** | *** |
+[3] *** | *** | r-v | RRR | *** |
+[2] *** | r-v | r-v | e-< | *** |
+[1] *** | *** | RRR | *** | *** |
+[0] *** | *** | e-> | RRR | *** |
+    [0]   [1]   [2]   [3]   [4]
+> Fin de la partie

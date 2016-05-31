@@ -1,0 +1,10 @@
+#test_unitaire_ko_08
+#
+# test l'interdiction de pousser en changeant d'orientation
+lit ../test/test_unitaire_ko/test_ko_08_entree.txt
+d 2 0 ^ ^
+fin
+#Comportement attendu:
+# aucune piece n'est modifiée
+
+//

@@ -1,0 +1,12 @@
+#test_unitaire_ok_08
+#
+# teste s'il est possible de sortir un animal du plateau sans poussee
+# 
+# 
+
+lit ../test/test_unitaire_ok/test_ok_08_entree.txt
+d 0 2 < <
+fin
+#comportement attendu:
+# l'elephant en (2,0) sort du plateau et on change de joueur
+

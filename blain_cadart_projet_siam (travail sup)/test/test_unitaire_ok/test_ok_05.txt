@@ -1,0 +1,10 @@
+#test_unitaire_ok_05
+#
+# test s'il est possible de changer l'orientation d'une piece qui appartient au joueur courant (ici un elephant en (3,0) )
+
+lit ../test/test_unitaire_ok/test_ok_05_entree.txt
+o 3 0 <
+fin
+#comportement attendu:
+# l'elephant en (3,0) a maintenant une orientation gauche
+

@@ -1,0 +1,12 @@
+#test_unitaire_ok_06
+#
+# test s'il est possible d'introduire une piece si jamais il y a déjà 5 animaux du même joueur, 
+# mais qu'en introduisant cette piece, un des animaux se fait ejecter 
+# de sorte qu'il ne reste quand même que 5 pièces après l'introduction
+
+lit ../test/test_unitaire_ok/test_ok_06_entree.txt
+n 3 4 v
+fin
+#comportement attendu:
+# toutes les pieces ont été poussée avec l'introduction, ejection de l'animal en trop, le total des animaux reste à 5.
+

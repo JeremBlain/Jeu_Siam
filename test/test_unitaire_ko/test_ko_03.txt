@@ -1,0 +1,11 @@
+#test_unitaire_ko_01
+#
+# test l'interdiction d'une piece à pousser deux rochers (si elle est toute seule à pousser)
+lit ../test/test_unitaire_ko/test_ko_03_entree.txt
+d 2 1 ^ ^
+fin
+#Comportement attendu:
+# l'elephant et les rochers n'ont pas bougé, aucun deplacement
+
+//La fonction poussee_etre_valide renvoie un 0 pour cause de compteur négatif (qui veut dire qu'il y a trop 
+//de piece en orientation opposée ou ici, de rocher). l'api s'arretera et affichera "La poussee n'est pas valide".

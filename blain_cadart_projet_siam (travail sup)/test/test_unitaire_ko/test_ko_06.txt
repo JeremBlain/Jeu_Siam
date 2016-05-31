@@ -1,0 +1,11 @@
+#test_unitaire_ko_06
+#
+# test introduction sur un bord du plateau necessitant une poussée mais avec une mauvaise orientation
+lit ../test/test_unitaire_ko/test_ko_06_entree.txt
+n 3 4 ^
+fin
+#Comportement attendu:
+# pas de piece introduite car l'orientation n'est pas la bonne (elle devrait être bas)
+
+//La fonction plateau_modification_introduire_piece_etre_possible renvera un 0 à l'api, 
+//qui s'arretera après avoir affiché "introduction de la piece impossible".
